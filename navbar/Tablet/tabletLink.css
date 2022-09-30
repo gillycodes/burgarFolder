@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,100;1,400&family=Oswald:wght@300&family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+
+*, ::before, ::after {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+
+/* second nav */
+#second-nav{
+    width: 100%;
+    max-height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 2%;
+    padding-bottom: 5px;
+    padding-right: 2%;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+    margin-top: -25px;
+}
+.logo h2{
+    font-family: Oswald;
+    padding-left: 10px;
+    font-size: 40px;
+}
+
+.contact-info-link{
+    text-decoration: none;
+    color: #000;
+}
+
+.contact-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    
+    margin-bottom: 10px;
+  
+}
+
+.contact-info h4{
+    margin-left: 15px;
+    letter-spacing: 2px;
+}
+
+.location-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-top: 10px;
+    right: 108px;
+    margin-bottom: 10px;
+   
+}
+
+.location-info img{
+    margin-top: 10px;
+}
+
+.location-info p{
+    margin-left: 15px;
+}
+
+/* third nav */
+
+#third-nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #fff;
+}
+
+#third-nav ul{
+    right: -80px;
+    max-width: 30%;
+    width: 30%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 12px;
+    font-weight: 400;
+    margin-right: 150px;
+}
+
+#third-nav ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+#third-nav ul li a div{
+    cursor: pointer;
+} 
+
+#third-nav ul li a div:hover{
+    color: #FF6F00;
+}
+
+#third-nav ul li a div div{
+    margin-left: -20px;
+}
+
+.home-div{
+    display: flex;
+}
+
+.home-div img{
+   margin-left: 10px;
+   margin-top: 4px;
+}
+
+.social-heading{
+    margin-right: 50px;
+}
+
+.social-heading img{
+    margin: 5px;
+}
+
+.search-env{
+    margin-right: 10px;
+    width: 100px;
+    
+}
+
+.search-env img{
+    margin: 5px;
+}
+
+.img-cons{
+    border-radius: 50px;
+    padding-top: 8px;
+}
+
+.cart-count-container{
+    background-color: #ffc139;
+    color: #6f6565aa;
+    font-size: 14px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    padding-top:  10px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+
+
+.search-env span .cart-count{
+    margin: 5px;
+}
+
+
+
+.message{
+    width: 200px;
+    height: 50px;
+    right: 50px;
+    position: absolute;
+    background-color: white;
+    color: #2d394b;
+    padding-top: 10px;
+    padding-left: 10px;
+    box-shadow: 12px 12px 2px 1px rgba(1, 1, 15, 0.2);
+}
+
+.hide{
+    display: none;
+}
+
+.text{
+    padding: 20px 8%;
+}
+.sticky{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    box-shadow: 12px 12px 2px 1px rgba(1, 1, 15, 0.2);
+}
+
+
+/* footer container - signup container*/
+footer {
+    display: flex;
+    padding: 20px;
+    width: 100%;
+}
+
+.sign-up-container {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    width: 50%;
+}
+
+.signup-heading {
+    color: #333333;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    margin-left: -5px;
+    margin-top: 10px;
+}
+
+.heading-container p {
+    color: #333333;
+    font-style: normal;
+    padding-top: 10px;
+    padding-left: 2px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: -7px;
+    letter-spacing: 2px;
+}
+
+form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: -7px;
+    padding-top: 5px;
+    padding-left: 2px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    position: relative;
+}
+
+.input-con {
+    display: flex;
+}
+
+.input-con a {
+    max-width: 15%;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    color: gray;
+    padding-left: 0%;
+}
+
+input{
+    padding: 13px 50px 13px 20px;
+    border-radius: 23px 23px 23px 23px;
+    background-color: rgba(0,0,0,0);
+    color: #333333;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: none;
+    font-style: normal;
+    line-height: 1.6em;
+    letter-spacing: 1.1px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #e5e5e5;
+    width: 350px;
+}
+
+.social-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -7px;
+    margin-right: 20px;
+    width: 150px;
+}
+.pinterest-img{
+    margin: 5px;
+}
+.instagram-img{
+    margin: 5px;
+}
+.facebook-img{
+    margin-left: 2px;
+    margin-bottom: 5px;
+}
+
+/* contact us container */
+.contact-container{
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-bottom: 20px;
+    width: 50%;
+   
+}
+
+.contact-heading{
+    color: #333333;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    margin-top: 10px;
+}
+
+.address-div {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.address-div a {
+   
+}
+
+.address-div p{
+    padding-top: 3px;
+    padding-left: 30px;
+    letter-spacing: 2px;
+}
+
+.mobile-div {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.mobile-div img{
+    padding-top: 10px;
+}
+
+.mobile-div h2{
+    padding-top: 10px;
+    padding-left: 26px;
+    font-size: x-large;
+    letter-spacing: 4px;
+}
+
+.time-div {
+    display: flex;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+.time-div p {
+    padding-top: 1px;
+    padding-left: 28px;
+    letter-spacing: 2px;
+}
+
+.mail-div {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.mail-div img{
+    padding-top: 2px;
+}
+
+.mail-div p{
+    padding-top: 5px;
+    padding-left: 30px;
+    letter-spacing: 2px;
+}
+
+.link-container{
+    text-decoration: none;
+    color: #000;
+}

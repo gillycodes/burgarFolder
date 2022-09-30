@@ -1,0 +1,343 @@
+/* third nav */
+
+#third-nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #fff;
+}
+
+#third-nav ul{
+    right: -80px;
+    max-width: 30%;
+    width: 30%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 12px;
+    font-weight: 400;
+    margin-right: 150px;
+    
+}
+
+#third-nav ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+#third-nav ul li a div{
+    cursor: pointer;
+}
+
+#third-nav ul li a div:hover{
+    color: #ff8400;
+}
+
+#third-nav ul li a div div{
+    margin-left: -20px;
+}
+
+.home-link{
+    text-decoration: none;
+    color: #000;
+}
+
+.home-div{
+    display: flex;
+}
+
+.home-div img{
+   margin-left: 10px;
+   margin-top: 4px;
+}
+
+.social-heading{
+    margin-right: 50px;
+}
+
+.social-heading img{
+    margin: 5px;
+}
+
+.search-env{
+    margin-right: 80px;
+    width: 100px;
+    
+}
+
+.search-env img{
+    margin: 5px;
+}
+
+.img-cons-link{
+    text-decoration: none;
+}
+
+.img-cons{
+    border-radius: 50px;
+    padding-top: 8px;
+}
+
+.cart-count-container{
+    background-color: #ffc139;
+    color: #6f6565aa;
+    font-size: 14px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    padding-top:  10px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+
+
+.search-env span .cart-count{
+    margin: 5px;
+}
+
+
+
+.message{
+    width: 200px;
+    height: 50px;
+    right: 50px;
+    position: absolute;
+    background-color: white;
+    color: #2d394b;
+    padding-top: 10px;
+    padding-left: 10px;
+    box-shadow: 12px 12px 2px 1px rgba(1, 1, 15, 0.2);
+}
+
+.hide{
+    display: none;
+}
+
+.text{
+    padding: 20px 8%;
+}
+.sticky{
+    position: fixed;
+    top:0;
+    width: 100%;
+    box-shadow: 12px 12px 2px 1px rgba(1, 1, 15, 0.2);
+}
+
+
+/* footer container - signup container*/
+footer {
+    display: flex;
+    padding: 20px;
+    width: 100%;
+}
+
+.sign-up-container {
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+    width: 50%;
+    
+    
+}
+
+.signup-heading {
+    color: #333333;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.heading-container p {
+    color: #333333;
+    font-style: normal;
+    padding: 10px;
+    margin: 15px;
+    letter-spacing: 2px;
+}
+
+form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    position: relative;
+}
+
+.input-con {
+    display: flex;
+}
+
+.input-con a {
+   
+    max-width: 15%;
+    position: absolute;
+   right: 210px;
+    top: 20px;
+     color: gray;
+     padding-left: 0%;
+}
+
+input{
+    padding: 13px 50px 13px 20px;
+    border-radius: 23px 23px 23px 23px;
+    background-color: rgba(0,0,0,0);
+    color: #333333;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: none;
+    font-style: normal;
+    line-height: 1.6em;
+    letter-spacing: 1.1px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #e5e5e5;
+    width: 417px;
+}
+
+.social-container {
+    margin: 20px;
+    width: 150px;
+}
+.pinterest-img{
+    margin: 5px;
+}
+.instagram-img{
+    margin: 5px;
+}
+.facebook-img{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+/* contact us container */
+.contact-container{
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-bottom: 20px;
+    width: 50%;
+   
+}
+
+.contact-heading{
+    color: #333333;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.address-div {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 22px;
+    margin-bottom: 20px;
+}
+
+.address-div p{
+    padding-top: 3px;
+    padding-left: 30px;
+}
+
+.mobile-div {
+    display: flex;
+    margin-left: 22px;
+    margin-bottom: 20px;
+}
+
+.mobile-div img{
+    padding-top: 10px;
+}
+
+.mobile-div h2{
+    padding-top: 1px;
+    padding-left: 26px;
+}
+
+.mobile-div h2:hover{
+    color: #FF6F00;
+}
+
+.time-div {
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.time-div p {
+    padding-top: 1px;
+    padding-left: 28px;
+}
+
+.mail-div {
+    display: flex;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.mail-div img{
+    padding-top: 2px;
+}
+
+.mail-div p{
+    padding-top: 5px;
+    padding-left: 30px;
+}
+
+.mail-div p:hover{
+    color: #FF6F00;
+}
+.link-container{
+    text-decoration: none;
+    color: #000;
+}
+
+.lining {
+    stroke: rgba(255, 255, 255, 0.96);
+    fill:   #00cc00;
+}
+.lined{
+    stroke: #FF6F00;
+    fill:   #cc0000;
+}
+.svg-class{
+    background-color: red;
+    border: 1px solid red;
+}
+
+.red {
+    background-color: green;
+}
+
+.about-us-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.about-us-img{
+    border: none;
+    box-shadow: 0px 14px 20px #2d394b1a, 0px 14px 20px rgba(50, 41, 41, 0.923);
+    margin-top: 120px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    color: chocolate;
+   background-image: linear-gradient(rgba(50, 41, 41, 0.923), black);
+}
+
+.paragraph{
+    text-align: center;
+    margin-top: 80px;
+    line-height: 2em;
+    letter-spacing: 2px;
+}
+
